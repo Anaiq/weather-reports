@@ -1,0 +1,153 @@
+body {
+    background: rgb(5, 108, 187);
+}
+
+#weather-greet {
+    grid-column: span 3;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#header-city-name {
+    color:whitesmoke;
+    font-size: 2em;
+}
+
+#temp-number {
+font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    display: block;
+    margin-right: 10rem;
+    color:whitesmoke;
+}
+
+.header-font {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+#city-changer {
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.inner-section {
+    background-color: whitesmoke;
+    margin-right: 1em;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#temp-section {
+    display: flex;
+    flex-direction:column;
+    grid-column: 1;
+}
+#sky-section {
+    display: flex;
+    flex-direction:column;
+    grid-column: 2;
+}
+
+#city-section {
+    display: flex;
+    flex-direction:column;
+    grid-column: 3;
+}
+
+#temp-number {
+    font-size: 3em;
+}
+
+#city-surround {
+    font-size: 2em;
+}
+
+.button{
+    border-radius: 4px;
+    color:  whitesmoke;
+    background-color: rgb(19, 130, 216);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.button1{
+    border: none;
+    color:  rgb(216, 19, 19);
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.button2{
+    border:none;
+    color:  rgb(5, 108, 187);
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer
+{
+    margin-top: 125px;
+}
+.garden-sky {
+    background-color: rgb(126, 172, 217);
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+    height: 215px;
+}
+.title-garden
+{
+    text-align: center;
+    
+}
+
+#skyscape {
+    padding-top: 10px;
+    font-size: 3em;
+}
+#garden {
+    margin-top: 1em;
+    padding-top: 10px;
+    font-size: 3em;
+}
+
+.red {
+    color: red;
+}
+    
+    .orange {
+    color: orange;
+    }
+    
+    .yellow {
+    color: gold;
+    }
+    
+    .green {
+    color: green;
+    }
+    
+    .teal {
+    color: teal;
+    }
+

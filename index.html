@@ -4,9 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Report</title>
+    <title>Weather Reports</title>
+    <link rel="stylesheet" href="styles/index.css" />
 </head>
 <body>
-    
+    <header id="weather-greet">
+        <h1 class="header-font">Weather Reports</h1>
+        <span id="city-surround">
+            The place for your
+            <span id="header-city-name" class="header-font">Austin</span>
+            Weather!
+        </span>
+    </header>
+
+    <main>
+        <section class="container">
+                <section class="inner-section" id="temp-section">
+                    <h3 class="header-font">Temperature</h3>
+            <div class="temp-content">
+                <span><button class="button1" id='inc-temp'>ᐱ</button></span>
+                <span id="temp-number" class="orange" > 76 °f</span>
+                <span><button class="button2" id='dec-temp'>ᐯ</button></span>
+                <span><button class="button" id="real-time">Real Time Temp</button></span>
+            </div>
+            </section>
+                <section class="inner-section" id="sky-section">
+                    <h3 class="header-font">Sky</h3>
+                    <div class="sky-content">
+                        <select name="skyscape" id="sky-select">
+                            <option value="">Select Sky</option>
+                            <option value="sunny">Sunny</option>
+                            <option value="cloudy">Cloudy</option>
+                            <option value="rainy">Rainy</option>
+                            <option value="snowy">Snowy</option>
+                        </select>
+                    </div>
+                </section>
+                <section class="inner-section" id="city-section">
+                    <h3 class="header-font">City</h3>
+                    <div class="city-section">
+                        <div id="city-changer">
+                            <div>
+                                <input type="text" placeholder="Austin" id="city-name" value="Austin" ><br>
+                            </div>
+                        </div>
+                        <span>
+                            <div>
+                                <button type="button" class="button" id="city-reset">Reset City</button>
+                            </div>
+                        </span>
+                    </div>
+                </section>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <section class="title-garden" id=titleGarden>
+                <h1 class="header-font">Weather Garden</h1>
+            </section>
+            <section class="garden-sky"id="garden-skyscape">
+                <div id="skyscape">
+                    🌤🌤 🌤 🌤🌤 🌤 🌤 🌤 🌤🌤
+                </div>
+                <div id="garden">
+                    🌸🌿🌼__🌷🌻🌿_☘️🌱_🌻🌷
+                </div>
+            </section>
+        </section>
+    </footer>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="/src/index.js"></script>
 </body>
+
 </html>
